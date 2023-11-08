@@ -118,7 +118,8 @@ body {
 }
 
 .top_menu_text {
-    margin-top: 5px;
+    margin-top: 7px;
+    margin-left: 5px;
 }
 
 a {
@@ -981,8 +982,8 @@ a {
     }
 
     .top_menu_text {
-        width: 100px;
-        display: flex;
+        width: 80px;
+        display: block;
         flex-direction: column;
     }
     .turbo_text {
