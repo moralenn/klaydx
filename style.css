@@ -735,8 +735,118 @@ a {
     margin-top: 140px;
 }
 
-@media only screen and (max-width: 1440px) {
 
+.box {
+    width: 350px;
+    height: 60px;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.turbo {
+    color: #F35A05;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.turbo2 {
+    color: #07040C;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.13px;
+    margin-top: 5px;
+
+
+}
+
+.img {
+    margin-top: 50px;
+    margin-right: 420px;
+    display: block;
+
+
+}
+
+.main2 {
+    margin: auto;
+    height: 250px;
+    margin-top: 720px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: black;
+    justify-content: center;
+}
+
+.box {
+
+    height: 100px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box1 {
+    height: 100px;
+    flex-direction: column;
+    display: flex;
+    margin-left: 320px;
+}
+
+.text {
+
+    color: #F35A05;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.text2 {
+
+    color: white;
+}
+
+.text3 {
+    width: 250px;
+    color: #CACBD7;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.text4 {
+    width: 250px;
+    color: #CACBD7;
+    margin-top: 10px;
+}
+
+.text5 {
+
+    color: white;
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .main2 {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+    .box1 {
+        margin-right: 80px;
+        margin-left: 0px;
+    }
     .price {
         flex-direction: column;
         display: flex;
@@ -900,7 +1010,6 @@ a {
     .nouhau-text {
         font-size: 25px;
     }
-
     .twodiv {
         width: 445px;
         height: 150px;
@@ -968,7 +1077,15 @@ a {
 }
 
 @media only screen and (max-width: 455px) {
+    .box1 {
+        margin-left: 150px;
+    }
 
+    .box {
+        margin-left: 150px;
+        padding-right: 300px;
+        padding-left: 300px;
+    }
     .onediv {
         font-size: 10px;
         width: 350px;
