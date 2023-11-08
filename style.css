@@ -80,12 +80,23 @@ body {
     cursor: pointer;
 }
 
+.header_right_button1:hover {
+    background-color: #07040C;
+    color: white;
+    cursor: pointer;
+}
 .turbo_text {
     color: #F35A05;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .turbo_text2 {
@@ -94,6 +105,10 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 .header_left {
@@ -583,6 +598,134 @@ a {
     margin-top: -35px;
 }
 
+.price {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-right: 120px;
+}
+
+.prices {
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 135px;
+}
+
+.prices_1 {
+    display: flex;
+}
+
+.prices_text {
+    color: #07040C;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.prices_text_block {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.prices_block {
+    width: 620px;
+    height: 210px;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 8px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    border: 3px dashed #E2E3EF;
+    display: flex;
+    flex-direction: column;
+}
+
+.oneblock {
+    border-bottom: 3px dashed #E2E3EF;
+    display: flex;
+}
+
+.twoblock {
+    display: flex;
+}
+
+.oneblock_text {
+    padding-left: 25px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    color: #4c4c4e;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#oneone {
+    margin-left: 150px;
+}
+
+#twotwo {
+    margin-left: 28px;
+    margin-top: -3px;
+}
+
+#threethree {
+    margin-left: 95px;
+    margin-top: -3px;
+}
+
+.oneblock1_text {
+    padding-left: 25px;
+    padding-top: 21px;
+    padding-bottom: 26px;
+    color: #07040C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.orange {
+    color: #F35A05;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.oneblock_text {
+    padding-left: 25px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    color: #07040C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.prices_images {
+    display: flex;
+    width: 450px;
+    height: 200px;
+    margin-top: 170px;
+    flex-direction: column;
+}
+
+.prices_img_text {
+    color: #07040C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 30px */
+}
+
+.rate {
+    margin-top: 140px;
+}
 
 @media only screen and (max-width: 1440px) {
     .semantic {
@@ -747,7 +890,7 @@ a {
         align-items: center;
         justify-content: center;
         margin-bottom: 15px;
-        margin-right: 60px;
+        margin-right: 30px;
         display: block;
     }
 
@@ -824,15 +967,28 @@ a {
     .top_menu {
         margin: auto;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         width: 300px;
         padding-top: 20px;
         border-bottom: 2px solid #E2E3EF;
     }
 
+    .header_left {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .top_menu_text {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+    }
     .turbo_text {
         font-size: 15px;
+        width: 100px;
+        margin-top: 6px;
     }
 
     .turbo_text2 {
@@ -854,6 +1010,7 @@ a {
     .shape_img {
         display: block;
         cursor: pointer;
+        scale: 0.8;
     }
 
     .header_right_button1 {
@@ -861,9 +1018,21 @@ a {
         justify-content: center;
         width: 150px;
         margin-bottom: 15px;
-        margin-right: 30px;
         display: block;
+        scale: 0.8;
     }
+
+    .header_right_button1 {
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        margin-bottom: 15px;
+        margin-left: 50px   ;
+        display: block;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
 
     .onediv1 {
         height: 80px;
