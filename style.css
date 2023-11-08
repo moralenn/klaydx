@@ -646,6 +646,13 @@ a {
 .oneblock {
     border-bottom: 3px dashed #E2E3EF;
     display: flex;
+
+}
+
+.oneblock2 {
+    border-bottom: 3px dashed #E2E3EF;
+    display: flex;
+
 }
 
 .twoblock {
@@ -729,6 +736,23 @@ a {
 }
 
 @media only screen and (max-width: 1440px) {
+
+    .price {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .prices {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .prices_block {
+        flex-direction: column;
+    }
+
+
     .semantic {
         width: 100%;
         flex-direction: column;
@@ -803,6 +827,48 @@ a {
         margin-right: 60px;
         display: block;
     }
+
+    .price {
+        margin-right: 0px;  
+        gap: 0px;
+    }
+
+    .prices_images {
+        margin-top: 20px;
+    }
+
+    .prices_1 {
+        flex-direction: column;
+    }
+    
+    .prices_text_block {
+        text-align: center;
+    }
+    
+    #imgprice {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    #oneone {
+        margin-left: 50px;
+    }
+
+    #twotwo {
+        margin-left: 1px;
+        margin-top: -3px;
+        flex-direction: column;
+    }
+
+    #threethree {
+       display: flex;
+       margin-left: 20px;
+       margin-top: -3px;
+       font-size: 12px;
+       flex-direction: column;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -825,11 +891,10 @@ a {
     .semantic_texts {
         width: 300px;
     }
-
     .onediv {
         font-size: 10px;
         width: 445px;
-        height: 160px;
+        height: 125px;
     }
 
     .nouhau-text {
@@ -838,22 +903,23 @@ a {
 
     .twodiv {
         width: 445px;
-        height: 180px;
+        height: 150px;
     }
 
     .onediv1 {
         font-size: 10px;
-        width: 400px;
+        width: 410px;
+        height: 100px;
     }
 
     .twodiv1 {
-        width: 400px;
-        height: 190px;
+        width: 410px;
+        height: 120px;
     }
 
     .twodiv12 {
-        width: 400px;
-        height: 170px;
+        width: 410px;
+        height: 110px;
     }
 
     .hsw_text_1 {
@@ -895,6 +961,10 @@ a {
         display: block;
     }
 
+    .prices_block {
+        width: 354px;
+        height: 245px;
+    }
 }
 
 @media only screen and (max-width: 455px) {
