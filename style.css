@@ -860,6 +860,7 @@ a {
 }
 
 @media only screen and (max-width: 1330px) {
+    
     .main2 {
         flex-direction: column;
         width: 100%;
@@ -1023,6 +1024,14 @@ a {
         flex-direction: column;
     }
 
+    .twoblock, .oneblock, .oneblock2 {
+        justify-content: space-around;
+    }
+
+    .oneblock1_text {
+        margin: 0px;
+        padding-left: 0px;
+    }
 }
 
 
