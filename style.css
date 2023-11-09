@@ -10,8 +10,11 @@ body {
     background: image('');
 }
 
+
 .header {
     width: 100%;
+    justify-content: center;
+    display: flex;
 }
 
 .shape_img {
@@ -774,7 +777,6 @@ a {
 }
 
 .main2 {
-    height: 440px;
     margin-top: 520px;
     display: flex;
     word-wrap: break-word;
@@ -840,7 +842,6 @@ a {
         width: 100%;
         display: flex;
         align-items: center;
-        height: 100%;
     }
 
     .box1 {
@@ -1145,7 +1146,6 @@ a {
         font-size: 10px;
         width: 350px;
         height: 130px;
-        margin-left: 40px;
     }
 
     .onediv_textdiv_text1 {
@@ -1155,26 +1155,22 @@ a {
     .twodiv {
         width: 350px;
         height: 180px;
-        margin-left: 40px;
     }
 
     .onediv1 {
         font-size: 10px;
         width: 350px;
         height: 110px;
-        margin-left: 40px;
     }
 
     .twodiv1 {
         width: 350px;
         height: 175px;
-        margin-left: 40px;
     }
 
     .twodiv12 {
         width: 350px;
         height: 150px;
-        margin-left: 40px;
     }
 
     .hsw_div {
@@ -1229,8 +1225,6 @@ a {
         width: 350px;
         margin: auto;
         padding-top: 20px;
-        padding-left: 100px;
-        padding-right: 100px;
         border-bottom: 2px solid #E2E3EF;
     }
 
@@ -1293,9 +1287,6 @@ a {
         margin-right: 20px;
     }
 
-    .semantic {
-        margin-left: 30px;
-    }
     .onediv1 {
         height: 80px;
     }
